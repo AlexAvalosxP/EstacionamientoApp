@@ -31,6 +31,11 @@
 	text-align: center;
 }
 
+.formStyle > h1, .formStyle > * > h1
+{
+	font-size: 3em;
+}
+
 .formStyle > button, .formStyle > * > button
 {
 	height: 100px;
@@ -39,7 +44,7 @@
 	margin-bottom: 50px;
 	margin-top: 50px;
 	border-radius: 50px;
-	font-size: 4em;
+	font-size: 3em;
 	background: orange;
 	color: white;
 }
