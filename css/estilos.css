@@ -1,0 +1,61 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+.formStyle
+{
+	height: calc(100vh - 150px);
+	width: 100%;
+	position: relative;
+	float: left;
+	overflow: auto;
+}
+
+.formStyle > input, .formStyle >  * > input
+{
+	position: relative;
+	float: left;
+	height: 100px;
+	width: 800px;
+	border-width: 0px 0px 15px 0px;
+	margin-left: calc(50% - 400px);
+	margin-bottom: 10px;
+	font-size: 3.5em;
+}
+
+.formStyle > h2, .formStyle > * > h2
+{
+	font-size: 5em;
+	text-align: center;
+}
+
+.formStyle > button, .formStyle > * > button
+{
+	height: 100px;
+	width: 600px;
+	margin-left: calc(50% - 300px);
+	margin-bottom: 50px;
+	margin-top: 50px;
+	border-radius: 50px;
+	font-size: 4em;
+	background: orange;
+	color: white;
+}
+
+.topBar
+{
+	height: 150px;
+	width: 100%;
+	background: black;
+}
+
+.topBar > button
+{
+	height: 150px;
+	width: 150px;
+	color: white;
+	font-size: 5em;
+	background: black;
+}
