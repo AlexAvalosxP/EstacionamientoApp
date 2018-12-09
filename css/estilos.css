@@ -64,3 +64,43 @@
 	font-size: 5em;
 	background: black;
 }
+
+.mapa, .QR
+{
+	float: left;
+	height: calc(100vh - 800px);
+	width: 100%;
+}
+
+.QR > canvas
+{
+	margin-left: calc(50% - 350px);
+	margin-top: calc(50% - 350px);
+}
+
+.detalles
+{
+	float: left;
+	height: 500px;
+	background: orange;
+	color: white;
+	width: 100%;
+	overflow: auto;
+	font-size: 2em;
+}
+
+.bottomBar
+{
+	float: left;
+	height: 150px;
+	width: 100%;	
+}
+
+.bottomBar > button
+{
+	height: 100%;
+	width: 	100%;
+	background: black;
+	color: white;
+	font-size: 3em;
+}
